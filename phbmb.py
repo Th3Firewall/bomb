@@ -12,8 +12,8 @@ def FuckTheFucker():
         x=x
     
     iteration = 0
-    _email = "fucker"+f'{iteration}'+'@gmail.com'
-    email = "fucker"+f'{iteration}'+'@gmail.com'
+    _email = "fucker"+'@gmail.com'
+    email = "fucker"+'@gmail.com'
     _phone=cc+pn
     _phone9 = _phone[1:]
     _phoneAresBank = '+'+_phone[0]+'('+_phone[1:4]+')'+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11]    
