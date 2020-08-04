@@ -2,8 +2,7 @@ from flask import Flask,request
 import requests
 import random
 
-app = Flask(__name__)
-@app.route('/phbomb',methods=['GET'])
+
 def FuckTheFucker():
     _name = ''
     for x in range(12):
@@ -11,8 +10,7 @@ def FuckTheFucker():
         password = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))
         username = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))
         x=x
-    cc=str(request.args['cc'])
-    pn=str(request.args['nm'])
+    
     iteration = 0
     _email = "fucker"+f'{iteration}'+'@gmail.com'
     email = "fucker"+f'{iteration}'+'@gmail.com'
@@ -424,6 +422,6 @@ def FuckTheFucker():
             pass
         
         
-
-if __name__ == "__main__":
-    app.run()
+cc=input("enter cc : ")
+pn=input("enter phone : ")
+FuckTheFucker()
